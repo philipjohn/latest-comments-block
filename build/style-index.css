@@ -1,0 +1,27 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-lcm-ll-latest-comments {
+  font-family: -apple-system, blinkmacsystemfont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+.wp-block-lcm-ll-latest-comments blockquote {
+  margin: 0;
+}
+.wp-block-lcm-ll-latest-comments a {
+  font-size: 0.8em;
+}
+.wp-block-lcm-ll-latest-comments a.wp-block-latest-comments__comment-link {
+  color: #111;
+  text-decoration: none;
+}
+.wp-block-lcm-ll-latest-comments a.wp-block-latest-comments__comment-link:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

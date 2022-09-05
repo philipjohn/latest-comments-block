@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "lcm/ll-latest-comments",
+  "version": "0.2.0",
+  "title": "LL Latest Comments",
+  "category": "widgets",
+  "icon": "admin-comments",
+  "description": "Display recent comments from across your WordPress site and customise how it looks",
+  "attributes": {
+    "commentsToShow": {
+      "type": "integer",
+      "default": 5
+    },
+    "wordsToShow": {
+      "type": "integer",
+      "default": 10
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "textdomain": "ll-latest-comments",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
